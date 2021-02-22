@@ -177,7 +177,7 @@ void loop()
     }
 
 
-    for (int i = 0; i <= 4; i++) {
+    for (int i = 0; i < 4; i++) {
         uint8_t network[] = {
             2,  /*Automatic*/
             13, /*GSM only*/
